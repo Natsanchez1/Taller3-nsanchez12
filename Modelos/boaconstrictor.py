@@ -30,8 +30,8 @@ class BoaConstrictor(AnimalExotico):
         
     #Definimos la función para agregar el raton
         def agregar_raton(self,raton:int)-> int:
-            if raton == 20:
-                self.ratones = 20
+            if raton == 10:
+                self.ratones = 10
                 print("Muchos ratones")
             else:
                 self.ratones += raton
